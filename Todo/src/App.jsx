@@ -1,13 +1,11 @@
-import ContextButton from './components/contextToggle/button';
-import ContextText from './components/contextToggle/text';
+import UseReducerExample from './components/useReducer/useReducer';
 import classes from './styles.module.css';
 
 function App() {
   
   return (
     <div className={classes.mainClass}>
-      <ContextButton/>
-      <ContextText/>
+      <UseReducerExample />
     </div>
   )
 }
